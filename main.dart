@@ -20,12 +20,12 @@ class Home extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children : [
-              // Container(
-              //   child: CircleAvatar(
-              //     radius: 130,
-              //     child: Image.asset('images/78638657_156471155727597_5191169538648965120_n.jpg'),
-              //   ), 
-              //   ),
+              Container(
+                child: CircleAvatar(
+                  radius: 130,
+                  child: Image.asset('images/78638657_156471155727597_5191169538648965120_n.jpg'),
+                ), 
+                ),
                  CircleAvatar(
                   radius: 130,
                   backgroundColor: Color(0xff27445E),
@@ -66,6 +66,7 @@ class Home extends StatelessWidget {
                   title: Text("(+20) 1225385213" , style: TextStyle(fontSize: 25),),
                 ),
               ),
+              
               Padding(
                 padding: EdgeInsets.all(12),
                 child: Container(
@@ -86,8 +87,6 @@ class Home extends StatelessWidget {
                   ),
                 ),
               ),
-
-
 
                Padding(
                 padding: EdgeInsets.all(12),
